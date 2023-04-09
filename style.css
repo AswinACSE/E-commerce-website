@@ -39,3 +39,17 @@
     color:#1a1a1a;
     transition: 0.3 ease;
 }
+.nav li a:hover,
+.nav li a.active{
+    color: #088178;
+}
+.nav li a:hover::after,
+.nav li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
